@@ -1,0 +1,30 @@
+PHẦN NÀY LÀM TRONG GIT BASH HERE FOLDER ĐÃ TẠO DemoGit
+
+git config --global user.name "votuanhuy2910"
+git config --global user.email "votuanhuy2910@gmail.com"
+git config --list
+cd new folder/
+git init
+git status
+git add *
+git status
+git commit -m "Init Project'
+
+
+PHẦN NÀY LÀM TRONG GIT BASH HERE "FOLDER ĐÃ TẠO" votuanhuy2910
+
+git clone ......
+cd ....
+git add *
+git commit -m "First commit"
+git status
+git push
+
+
+NẾU MUỐN THÊM
+
+git add *
+git commit -m "Second commit'
+git status
+git push
+
