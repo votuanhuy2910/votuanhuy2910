@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <tille>
+            ROG G531
+        </tille>
+    <style>
+        h5{
+            color: cyan;
+        }
+
+        #tieude{
+            text-align: center;
+            color: #dede3c;
+        }
+
+        table{
+            margin: 0 auto;
+        }
+
+        .mytextbox{
+            color: cyan;
+            background-color: #cc9999;
+            border: 1px solid pink;
+            width: 300px;
+            padding: 5px;
+        }
+
+        td{
+            border: 1px solid cyan;
+            color: blue;
+            background-color: #ffcccc;
+        }
+
+    </style>
+    </head>
+    <body>
+        <h5>Võ Tuấn Huy</h5>
+        <h5>44.01.104.097</h5>
+        <h5>COMP130304</h5>
+        <h2 id="tieude">ĐĂNG KÝ THÀNH VIÊN</h2>
+    <form method="POST" enctype="multipart/form-data">
+        <table cellpadding=4 border=1 width=500 cellspacing=0>
+
+            <tr>
+                <td>Họ tên</td>
+                <td class="mytextbox">
+                    <input class="mytextbox" type="text" name="HoTen" ID="txtHoTen" required maxlength="50" placeholder="Nhập Họ Tên" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>Tên Đăng Nhập</td>
+                <td class="mytextbox">
+                    <input class="mytextbox" type="text" name="TenDangNhap" ID="txtTenDangNhap" required maxlength="20" placeholder="Nhập Tên Đăng Nhập" />
+                </td>     
+            </tr>
+
+            <tr>
+                <td>Mật Khẩu</td>
+                <td class="mytextbox">
+                    <input class="mytextbox" type="Password" name="MatKhau" ID="txtPass" required maxlength="20" placeholder="Nhập Mật Khẩu" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>Nhập Lại Mật Khẩu</td>
+                <td class="mytextbox">
+                    <input class="mytextbox" type="Password" name="NhapLaiMatKhau" ID="txtPass" required maxlength="20" placeholder="Nhập Lại Mật Khẩu" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>Phái</td>
+                <td>
+                    <input type="radio" name="rdPhai" value="0" ID="rdPhai" />Nam
+                    <input type="radio" name="rdPhai" value="1" ID="rdPhai" />Nữ
+                </td>
+            </tr>
+            
+            <tr>
+                <td>Ngoại Ngữ</td>
+                <td>
+                    <input type="checkbox" name="rdPhai" name="ngoaingu" ID="ChkAnh" Lable="Anh" />Anh
+                    <input type="checkbox" name="rdPhai" name="ngoaingu" ID="ChlPhap" Label="Pháp" />Pháp
+                    <input type="checkbox" name="rdPhai" name="ngoaingu" ID="ChlPhap" Label="Hoa" />Hoa
+                </td>
+            </tr>
+
+            <tr>
+                <td>Nghề Nghiệp</td>
+                <td>
+                    <select class="mytextbox" name="cboNgheNghiep">
+                        <option value="0" label="Bạn làm nghề gì"></option>
+                        <option value="1" label="Học Sinh - Sinh Viên"></option>
+                        <option value="2" label="Giáo viên"></option>
+                        <option value="3" label="Nhân viên"></option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Hình</td>
+                <td>
+                    <input class="mytextbox" type="file" name="Hinh" ID="fHinh" />
+                </td>
+            </tr>
+
+            <tr>
+                <td>Sở Thích</td>
+                <td>
+                    <textarea name="SoThich" class="mytextbox" rows="5"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center" colspan="2">
+                    <button type="submit" ID="btnDangKy" value="Đăng Ký">Đăng Ký</button>
+                    <button type="reset" ID="btnLamLai" value="Làm Lại">Làm Lại</button>
+                </td>
+            </tr>
+        </table>
+    </form>    
+    </body>
+</html>

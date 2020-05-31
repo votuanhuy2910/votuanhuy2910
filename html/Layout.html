@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <title>Shop Giày Real</title>
+        <link rel="stylesheet" type="text/css" href="../css/Style.css" />
+        <link rel="stylesheet" type="text/css" href="../html/indexLogin.html" />
+        <link rel="stylesheet" type="text/css" href="../css/Logincss.css>"/>
+        <link rel="stylesheet" type="text/css" href="../html/indexRegister.html" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    </head>
+
+    <body>
+        <div id="menu_top">
+            <ul>
+                <li><a href="#" title="GIÀY NAM">GIÀY NAM</a></li>
+                <li><a href="#" title="GIÀY NỮ">GIÀY NỮ</a></li>
+                <li><a href="#" title="TẤT CẢ SẢN PHẨM">TẤT CẢ SẢN PHẨM</a></li>
+                <li><a href="#" title="GIÀY CAO CẤP">GIÀY CAO CẤP</a></li>
+                <li><a href="#" title="GIÀY CHÍNH HÃNG">GIÀY CHÍNH HÃNG</a></li>
+                <li><a href="#" title="THƯƠNG HIỆU">THƯƠNG HIỆU</a></li>
+            </ul>
+            <div class="Look" style="float: right;">
+                <a href="../html/indexLogin.html"><button style='font-size:20px; background: white;'>Đăng Nhập <i class='fas fa-user'></i></button></a>
+                <a href="../html/indexRegister.html"><button style='font-size:20px; background: white;'>Đăng Ký <i class="fa fa-list-ul"></i></button></a>
+                <button style='font-size:20px; background: cyan;'><i class='fas fa-search-dollar'></i></button>
+                <button style='font-size:20px; background: cyan;'><i class='fas fa-shopping-cart'></i></button>
+            </div>
+
+        <div id="banner">
+            <img class="collection" src="../images/Collection.png">
+        </div>
+        <div id="main">
+            <div id="left">
+                <div class="menu_left">
+                    <button class="btn"><i class="fa fa-bars"></i> Danh Mục</button>
+                    <ul>
+                        <li><a href="#">Giày Nike</a></li>
+                        <li><a href="#">Giày Adidas</a></li>
+                        <li><a href="#">Giày Gucci</a></li>
+                        <li><a href="#">Giày Puma</a></li>
+                        <li><a href="#">Giày Converse</a></li>
+                        <li><a href="#">Giày New Balance</a></li>
+                        <li><a href="#">Giày Balenciaga</a></li>
+                        <li><a href="#">Giày Fila</a></li>
+                    </ul>
+                </div>
+
+                <div class="menu_gia">
+                    <button class="btn"><i class="fa fa-minus"></i> GIÁ SẢN PHẨM</button>
+                    <ul class="check-box-list">
+                        <li>
+                            <input type="checkbox" id="p1" name="cc" data-price="(price:product<=1000000)" />
+                            <label for="p1">
+                                <span>Dưới</span> 1,000,000₫
+                            </label>   
+                        </li>
+                        <li>
+                            <input type="checkbox" id="p2" name="cc" data-price="((price:product>1000000)&amp;&amp;(price:product<=2000000))"/>
+                            <label for="p2">
+                                1,000,000₫ - 2,000,000₫
+                            </label>   
+                        </li>
+                        <li>
+                            <input type="checkbox" id="p3" name="cc" data-price="((price:product>2000000)&amp;&amp;(price:product<=3000000))"/>
+                            <label for="p3">
+                                2,000,000₫ - 3,000,000₫
+                            </label>   
+                        </li>
+                        <li>
+                            <input type="checkbox" id="p4" name="cc" data-price="((price:product>3000000)&amp;&amp;(price:product<=4000000))"/>
+                            <label for="p4">
+                                3,000,000₫ - 4,000,000₫
+                            </label>   
+                        </li>
+                        <li>
+                            <input type="checkbox" id="p5" name="cc" data-price="(price:product>=4000000)"/>
+                            <label for="p5">
+                                <span>Trên</span> 4,000,000₫
+                            </label>   
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="menu_size">
+                    <button class="btn"><i class="fa fa-plus"></i> SIZE</button>
+                    <ul class="check-box-list clearfix">
+								
+                        <li>
+                            <input type="radio" id="data-size-p1" value="35" name="size-filter" data-size="(variant:product**35)"/>
+                            <label for="data-size-p1">35</label>   
+                        </li>
+                        
+                        <li>
+                            <input type="radio" id="data-size-p2" value="36" name="size-filter" data-size="(variant:product**36)"/>
+                            <label for="data-size-p2">36</label>   
+                        </li>
+                        
+                        <li>
+                            <input type="radio" id="data-size-p3" value="37" name="size-filter" data-size="(variant:product**37)"/>
+                            <label for="data-size-p3">37</label>   
+                        </li>
+                        
+                        <li>
+                            <input type="radio" id="data-size-p4" value="38" name="size-filter" data-size="(variant:product**38)"/>
+                            <label for="data-size-p4">38</label>   
+                        </li>
+                        
+                        <li>
+                            <input type="radio" id="data-size-p5" value="39" name="size-filter" data-size="(variant:product**39)"/>
+                            <label for="data-size-p5">39</label>   
+                        </li>
+                        
+                        <li>
+                            <input type="radio" id="data-size-p6" value="40" name="size-filter" data-size="(variant:product**40)"/>
+                            <label for="data-size-p6">40</label>   
+                        </li>
+                        
+                        <li>
+                            <input type="radio" id="data-size-p7" value="41" name="size-filter" data-size="(variant:product**41)"/>
+                            <label for="data-size-p7">41</label>   
+                        </li>
+                        
+                        <li>
+                            <input type="radio" id="data-size-p8" value="42" name="size-filter" data-size="(variant:product**42)"/>
+                            <label for="data-size-p8">42</label>   
+                        </li>
+                        
+                        <li>
+                            <input type="radio" id="data-size-p9" value="43" name="size-filter" data-size="(variant:product**43)"/>
+                            <label for="data-size-p9">43</label>   
+                        </li>
+                        
+                        <li>
+                            <input type="radio" id="data-size-p10" value="44" name="size-filter" data-size="(variant:product**44)"/>
+                            <label for="data-size-p10">44</label>   
+                        </li>
+                        
+                        <li>
+                            <input type="radio" id="data-size-p11" value="45" name="size-filter" data-size="(variant:product**45)"/>
+                            <label for="data-size-p11">45</label>   
+                        </li>
+                        
+                        <li>
+                            <input type="radio" id="data-size-p12" value="46" name="size-filter" data-size="(variant:product**46)"/>
+                            <label for="data-size-p12">46</label>   
+                        </li>
+                        
+                    </ul>
+                    
+                </div>
+
+            </div>
+            <div id="right">
+                <div class="hh-box">
+                    <img src="../images/gucci.jpg" class="hh-box-images">
+                    <div class="hh-box-price">4,500,000đ</div>
+                    <div class="hh-box-name">Gucci Rhyton Logo Sneaker Like Auth</div>
+                    <input class="button" type="button" value="Mua Ngay"></input>
+                    <input class="button_1" type="button" value="Thêm Giỏ Hàng"></input>
+                </div>
+                
+                <div class="hh-box">
+                    <img src="../images/guccinu.jpg" class="hh-box-images">
+                    <div class="hh-box-price">20,000,000đ</div>
+                    <div class="hh-box-name">Gucci Rhyton Logo Sneaker Like Auth</div>
+                    <input class="button" type="button" value="Mua Ngay"></input>
+                    <input class="button_1" type="button" value="Thêm Giỏ Hàng"></input>
+                </div>
+
+                <div class="hh-box">
+                    <img src="../images/giaynike.jpg" class="hh-box-images">
+                    <div class="hh-box-price">2,000,000đ</div>
+                    <div class="hh-box-name">Nike Air Force 1 Shadow SE CP2707915</div>
+                    <input class="button" type="button" value="Mua Ngay"></input>
+                    <input class="button_1" type="button" value="Thêm Giỏ Hàng"></input>
+                </div>
+
+                <div class="hh-box">
+                    <img src="../images/adidas.jpg" class="hh-box-images">
+                    <div class="hh-box-price">2,400,000đ</div>
+                    <div class="hh-box-name">Adidas Originals Coast Star Sneaker</div>
+                    <input class="button" type="button" value="Mua Ngay"></input>
+                    <input class="button_1" type="button" value="Thêm Giỏ Hàng"></input>
+                </div>
+
+                <div class="hh-box">
+                    <img src="../images/puma.jpg" class="hh-box-images">
+                    <div class="hh-box-price">4,975,000đ</div>
+                    <div class="hh-box-name">Puma Rs-X Hard Drive Whisp-Peacoat Casual FW19</div>
+                    <input class="button" type="button" value="Mua Ngay"></input>
+                    <input class="button_1" type="button" value="Thêm Giỏ Hàng"></input>
+                </div>
+
+                <div class="hh-box">
+                    <img src="../images/fila.jpg" class="hh-box-images">
+                    <div class="hh-box-price">2,300,000đ</div>
+                    <div class="hh-box-name">Fila Disruptor 2 Tapey Tape FS1HTB1091XWWT280</div>
+                    <input class="button" type="button" value="Mua Ngay"></input>
+                    <input class="button_1" type="button" value="Thêm Giỏ Hàng"></input>
+                </div>
+
+                <div class="hh-box">
+                    <img src="../images/conv.jpg" class="hh-box-images">
+                    <div class="hh-box-price">3,239,000đ</div>
+                    <div class="hh-box-name">Converse Chuck Taylor All Star II</div>
+                    <input class="button" type="button" value="Mua Ngay"></input>
+                    <input class="button_1" type="button" value="Thêm Giỏ Hàng"></input>
+                </div>
+                
+                <div class="hh-box">
+                    <img src="../images/newbalance.jpg" class="hh-box-images">
+                    <div class="hh-box-price">2,420,000đ</div>
+                    <div class="hh-box-name">New Balance Nb 574  Classic 1907</div>
+                    <input class="button" type="button" value="Mua Ngay"></input>
+                    <input class="button_1" type="button" value="Thêm Giỏ Hàng"></input>
+                </div>
+
+                <div class="hh-box">
+                    <img src="../images/balen.jpg" class="hh-box-images">
+                    <div class="hh-box-price">22,000,000đ</div>
+                    <div class="hh-box-name">Balenciaga Tripes S Red Blue Plus Y Factory</div>
+                    <input class="button" type="button" value="Mua Ngay"></input>
+                    <input class="button_1" type="button" value="Thêm Giỏ Hàng"></input>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="address">
+                <ul>
+                    <li><a href="https://www.facebook.com/profile.php?id=100009246588286">Facebook</a></li>
+                </ul>
+            </div>
+
+            <div class="address" style="float: right;">
+                <ul>
+                    <li>Gmail: votuanhuy2910@gmail.com</li>
+                </ul>
+            </div>
+
+            <div class="address">SĐT: 07897614887</div>
+        </div>
+    </body>
+</html>
