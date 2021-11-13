@@ -28,3 +28,10 @@ git commit -m "Second commit'
 git status
 git push
 
+NẾU MUỐN THÊM VÀO BRANCH #
+git checkout [branchname]
+git add *
+git status
+git commit -m "note"
+git push -u origin [branchname]
+
