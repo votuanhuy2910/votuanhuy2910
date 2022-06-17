@@ -35,3 +35,9 @@ git status
 git commit -m "note"
 git push -u origin [branchname]
 
+XÓA MỘT FILE KHỎI REPO MÀ VẪN CÒN TRONG PROJECT
+git -rm --cached [filename]
+
+XÓA MỘT FILE KHỎI REPO VÀ PROJECT
+git -rm [filename]
+
